@@ -1,0 +1,44 @@
+{
+ "host": {
+  "kernel": "6.2.0-37-generic",
+  "cpu": "Intel(R) Xeon(R) Gold 6133 CPU @ 2.50GHz",
+  "cpus": 8,
+  "avx512": true
+ },
+ "ram": {
+  "total_gb": 16.72,
+  "available_gb": 13.19,
+  "swap_total_gb": 6.34,
+  "swap_used_gb": 0.0
+ },
+ "storage": {
+  "path": "/models",
+  "free_gb": 145.24,
+  "total_gb": 210.25,
+  "device": "/dev/vda3",
+  "fstype": "ext4",
+  "physical_disks": [
+   {
+    "disk": "vda",
+    "nvme": false,
+    "rotational": true,
+    "model": ""
+   }
+  ],
+  "all_nvme": false
+ },
+ "gpus": [
+  {
+   "vendor": "nvidia",
+   "index": 0,
+   "name": "NVIDIA GeForce RTX 2080 Ti",
+   "vram_gb": 11,
+   "vram_mib": 11264,
+   "vram_used_mib": 5875,
+   "pci": "00000000:00:08.0",
+   "pcie_gen_max": "3",
+   "pcie_width_max": "16",
+   "driver": "550.127.05"
+  }
+ ]
+}
